@@ -7,9 +7,9 @@ with open('LICENSE') as tmp_file:
     license = tmp_file.read()
 
 setup(
-    name='New Python Project',
+    name='OpenDHT REST',
     version='0.1.0dev',
-    description='New Python Project Description',
+    description='A REST API for OpenDHT',
     long_description='readme',
     author='Trevor Medina',
     url='https://github.com/mongoishere/new_pyproject',
