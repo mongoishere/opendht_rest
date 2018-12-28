@@ -12,7 +12,7 @@ setup(
     description='A REST API for OpenDHT',
     long_description='readme',
     author='Trevor Medina',
-    url='https://github.com/mongoishere/opendht_api.git',
+    url='https://github.com/mongoishere/opendht_rest.git',
     license=license,
     packages=find_packages(exclude=(
         'docs',
