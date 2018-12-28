@@ -1,3 +1,58 @@
 swagger: "2.0"
 info:
-  description: This is the swagger file that goes with our server code
+  description: OpenDHT REST API Swagger Configuration
+  version: "2018-12-27"
+  title: OpenDHT REST API
+consumes:
+  - application/json
+produces:
+  - application/json
+basePath: /v1
+
+paths:
+  /fetch/{key}:
+    get:
+      operationId: node.get
+      tags:
+        - node
+      summary: Handling get request
+      description: Fetch value from hash table
+      parameters:
+        - name: key
+          in: path
+          description: key for fetching value
+          type: string
+          required: True
+      responses:
+        200:
+          description: Successfully fetch value data from table
+          schema:
+            type: object
+            properties:
+              id:
+                type: integer
+              data:
+                type: string
+              size:
+                type: integer
+                
+  /post/key/{key}/value/{value}:
+    post:
+      operationId: node.put
+      tags:
+        - node
+      summary: Handling post request
+      parameters:
+        - name: key
+          in: path
+          description: key for storing value
+          type: string
+          required: True
+        - name: value
+          in: path
+          description: value for key
+          type: string
+          required: True
+      responses:
+        201:
+          description: Successfully created key-value pair
