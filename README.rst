@@ -16,6 +16,7 @@ OpenDHT REST to access the `Swagger <https://swagger.io/docs/specification/basic
 Once installed, start the web server ::
     cd opendht_rest && python core.py
 This will start the web server which serves the REST API endpoints specified in the ``swagger.yml`` file
+
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
 +============+============+===========+
