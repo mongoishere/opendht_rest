@@ -18,6 +18,7 @@ Once installed, start the web server ::
 This will start the web server which serves the REST API endpoints specified in the ``swagger.yml`` file
 
 Endpoints
+----------------------------------
 
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
