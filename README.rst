@@ -13,3 +13,7 @@ After `building the OpenDHT library <https://github.com/savoirfairelinux/opendht
 This should install `Flask <https://github.com/pallets/flask>`_ and `Connexion <https://github.com/zalando/connexion>`_ if they have not been installed already.
 Flask is used to create a simple web server using their framework. Connexion will allow
 OpenDHT REST to access the `Swagger <https://swagger.io/docs/specification/basic-structure/>`_ specification with Flask.
+
+Once installed, start the web server
+    cd opendht_rest
+    python core.py
