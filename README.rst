@@ -25,5 +25,5 @@ Endpoints
 +=========+====================================================+=============================================+
 | GET     | ``localhost:5000/v1/fetch/{key}``                  | Fetch value data for provided key           |
 +---------+----------------------------------------------------+---------------------------------------------+
-| POST    | ``localhost:5000/v1/post/key{key}/value/{value}``  | Populate table with provided key-value pair |                               |
+| POST    | ``localhost:5000/v1/post/key{key}/value/{value}``  | Populate table with provided key-value pair |
 +---------+----------------------------------------------------+---------------------------------------------+
