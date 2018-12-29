@@ -15,4 +15,4 @@ Flask is used to create a simple web server using their framework. Connexion wil
 OpenDHT REST to access the `Swagger <https://swagger.io/docs/specification/basic-structure/>`_ specification with Flask.
 Once installed, start the web server ::
     cd opendht_rest && python core.py
-This will start the web server which serves the REST API endpoints specified in the :swagger.yml: file
+This will start the web server which serves the REST API endpoints specified in the ``swagger.yml`` file
