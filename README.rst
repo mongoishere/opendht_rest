@@ -20,7 +20,7 @@ This will start the web server which serves the REST API endpoints specified in 
 Endpoints
 ----------------------------------
 
-+---------+------------+----------------------------------------+
++---------+------------+-----------------------+----------------+
 | Method  | Endpoint                           | Description    |
 +=========+====================================+================+
 | GET     | ``localhost:5000/v1/fetch/{key}``  | column 3       |
