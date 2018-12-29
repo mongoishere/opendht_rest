@@ -14,5 +14,5 @@ This should install `Flask <https://github.com/pallets/flask>`_ and `Connexion <
 Flask is used to create a simple web server using their framework. Connexion will allow
 OpenDHT REST to access the `Swagger <https://swagger.io/docs/specification/basic-structure/>`_ specification with Flask.
 Once installed, start the web server
-    cd opendht_rest
+    cd opendht_rest\n
     python core.py
