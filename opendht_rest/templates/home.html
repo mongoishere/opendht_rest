@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        <script src="static/js/home.js"></script>
+        <link rel='stylesheet' href='static/css/home.css'/>
+        <link rel='stylesheet' href='static/css/font-awesome.min.css'/>
         <title>Daku</title>
     </head>
 
     <body>
-        <h1>Dakurochi</h1>
+        <section>
+            <div id='bannerArea'>
+                <h1 id='bannerArea__header'>OpenDHT API</h1>
+            </div>
+        </section>
+        <section>
+            <div id='searchArea'>
+                <div id='searchArea__container'>
+                    <input id='searchArea__input' placeholder='Enter Key...' type='text'/>
+                    <input id='searchArea__button' value='Search' type='button'/>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id='tableArea'>
+                <table id='tableArea__table' class='table-fill'>
+                    <thead>
+                        <tr>
+                            <th class='text-left'>Key ID</th>
+                            <th class='text-left'>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class='table-hover'>
+                        <!--<tr>
+                            <td class='text-left'>Example</td>
+                            <td class='text-left'>Result</td>
+                        </tr>
+                        <tr>
+                            <td class='text-left'>Example</td>
+                            <td class='text-left'>Result</td>
+                        </tr>-->
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </body>
 </html>
