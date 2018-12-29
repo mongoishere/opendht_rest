@@ -13,6 +13,10 @@ var onPost = () => {
     const http = new XMLHttpRequest();
     const postKey = updateArea_input_key.value;
     const postValue = updateArea_input_value.value;
+
+    updateArea_input_key.value = '';
+    updateArea_input_value.value = '';
+
     const url = `${window.location.href}v1/post/key/${postKey}/value/${postValue}`;
     http.open("POST", url, true);
     http.send();
