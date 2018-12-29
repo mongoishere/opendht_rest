@@ -7,6 +7,10 @@ app = connexion.App(__name__, specification_dir='./')
 # Provide Swagger specification YAML or JSON file
 app.add_api('swagger.yml')
 
+@app.route('/test_button.html', methods=['GET'])
+def button():
+    return render_template('test_button.html');
+
 # Route '/' to home.html
 @app.route('/api', methods=['GET', 'POST', 'PUT'])
 def homeA():
